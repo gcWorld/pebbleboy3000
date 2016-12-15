@@ -1,0 +1,76 @@
+{
+    "author": "jonas@gcworld.de",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pebble-boy-3000",
+    "pebble": {
+        "displayName": "Pebble Boy 3000",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/pebbleboy.png",
+                    "name": "IMAGE_PEBBLE_BOY_BG",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pebbleboy-nobt-small.png",
+                    "name": "IMAGE_NO_BT",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/full.png",
+                    "name": "IMAGE_BATTERY_FULL",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charge4.png",
+                    "name": "IMAGE_BATTERY_4",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charge3.png",
+                    "name": "IMAGE_BATTERY_3",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charge2.png",
+                    "name": "IMAGE_BATTERY_2",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charging.png",
+                    "name": "IMAGE_BATTERY_CHARGING",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charge6.png",
+                    "name": "IMAGE_BATTERY_6",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charge5.png",
+                    "name": "IMAGE_BATTERY_5",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/empty.png",
+                    "name": "IMAGE_BATTERY_EMPTY",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "286fe137-eb77-45bd-82bd-bb25e80c6c37",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
